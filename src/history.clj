@@ -22,5 +22,4 @@ map o f players and their past moves"} history)
                 move)))
 
   ([player h move]
-   (println "DEBUG: " player h move)
    (assoc h player (conj (h player) move))))
