@@ -25,7 +25,7 @@
 
 (defn run [n]
   (loop [[p1 p2] [(gen-prisoner :alex sss/random)
-                  (gen-prisoner :cata sss/random)]
+                  (gen-prisoner :hamburger sss/random)]
          n n]
     (if (zero? n)
       (judge/release-prisoner (into (:history p1) (:history p2)))

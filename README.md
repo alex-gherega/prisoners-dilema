@@ -12,7 +12,7 @@ Check out the [wiki](https://github.com/alex-gherega/prisoners-dilema/wiki)
 4. call the function run with a number of turns
 
 This will print at the end of the tournament something like:
-({:alex 23} {:cata 30})
+({:alex 23} {:hamburger 30}) - sometimes hamburgers win! 
 
 # Revamp the environment
 
